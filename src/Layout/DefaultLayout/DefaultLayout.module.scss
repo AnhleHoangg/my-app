@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.container {
+  width: var(--default-layout-width);
+  max-width: 100%;
+  display: flex;
+  height: calc(100% - 57px);
+}
+.content {
+  flex: 1;
+  height: 100%;
+}

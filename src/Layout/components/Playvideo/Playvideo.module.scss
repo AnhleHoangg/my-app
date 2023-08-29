@@ -1,0 +1,74 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 650px;
+  min-height: 649px;
+  margin-top: 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(22, 24, 35, 0.1);
+  
+}
+
+.avtar-video {
+  height: auto;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.media-tiktok {
+  box-sizing: border-box;
+}
+
+//Header of video
+.infor-video {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.infor-header {
+  width: 400px;
+  min-height: 70px;
+}
+.name-account {
+  display: inline-block;
+  margin-right: 4px;
+  line-height: 24px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.icon-music {
+  margin-right: 5px;
+  font-size: small;
+}
+.tag-music {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.name-account,
+.tag-music {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+// video
+.video-tiktok {
+  display: flex;
+}
+.format-video {
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+.icon-interact {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  padding: 0px 10px;
+}

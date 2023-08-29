@@ -1,0 +1,80 @@
+.wrapper {
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 9px 16px;
+  min-width: 100px;
+  border-radius: 4px;
+  background-color: var(--white);
+  cursor: pointer;
+  border: 1px solid transparent;
+  + .wrapper {
+    margin-left: 8px;
+  }
+  &.disable {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
+.icon + .tittle,
+.tittle + .icon {
+  margin-left: 8px;
+}
+//button styles
+.rounded {
+  border-radius: 999px;
+  box-shadow: 0px 2px 8px rgb(0 0 0 / 6%);
+  border-color: rgb(22, 24, 35, 0.12);
+
+  &:hover {
+    border-color: rgba(22, 24, 35, 0.2);
+    background-color: rgba(255, 255, 255, 1);
+  }
+}
+
+.primary {
+  color: var(--white);
+  background-color: var(--primary);
+
+  &:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),
+      #fe2c55;
+  }
+}
+.outline {
+  color: var(--primary);
+  border-color: currentColor;
+
+  &:hover {
+    border-color: currentColor;
+    background-color: rgba(254, 44, 85, 0.08);
+  }
+}
+//button size
+.small {
+  min-width: 88px;
+  padding: 4px 16px;
+}
+.large {
+  min-width: 148px;
+  padding: 14px 16px;
+  min-height: 38px;
+}
+.text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.03px;
+  border: 1px solid var(--black);
+  -webkit-app-region: no-drag;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.logaction {
+  width: 100%;
+  height: 42px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+  border-radius: none;
+  padding: 10px;
+}
